@@ -73,4 +73,8 @@
         </div>
     </div>
 </div>
+<footer>
+    <a href="../doc/phpDocumentor/index.html">Documentacion phpDoc</a>
+    <a href="../doc/DoxyGen/html/index.html">Documentacion DoxyGen</a>
+</footer>
 <?php include "Views/Templates/footer.php"; ?>
