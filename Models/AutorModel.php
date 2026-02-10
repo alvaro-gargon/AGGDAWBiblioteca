@@ -1,4 +1,12 @@
 <?php
+/**
+ * Clase AutorModel
+ * Clase que servira para crear objetos el tipo AuthorModel y que parece que sirve para hacer diferentes operaciones con diferentes autores
+ * @author Alvaro Garcia Gonzale
+ * @since 10/02/2026
+ * @package Models
+ * 
+ */
 class AutorModel extends Query
 {
     public function __construct()
