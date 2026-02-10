@@ -1,0 +1,118 @@
+\doxysection{Prestamos\+Model Class Reference}
+\hypertarget{class_prestamos_model}{}\label{class_prestamos_model}\index{PrestamosModel@{PrestamosModel}}
+Inheritance diagram for Prestamos\+Model:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_prestamos_model}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_prestamos_model_a095c5d389db211932136b53f25f39685}{\+\_\+\+\_\+construct}} ()
+\item 
+\doxymbox{\hyperlink{class_prestamos_model_acd9202ff331c88f7d2202736f0e6a175}{get\+Prestamos}} ()
+\item 
+\doxymbox{\hyperlink{class_prestamos_model_a1f03113fc2a2c6d4aad1763efda17ef7}{insertar\+Prestamo}} (\$estudiante, \$libro, \$cantidad, string \$fecha\+\_\+prestamo, string \$fecha\+\_\+devolucion, string \$observacion)
+\item 
+\doxymbox{\hyperlink{class_prestamos_model_a0daa77d47540b9bccd10b9423bcf78f4}{actualizar\+Prestamo}} (\$estado, \$id)
+\item 
+\doxymbox{\hyperlink{class_prestamos_model_aaae2ed99b8220b0abbc24e42f448439c}{select\+Datos}} ()
+\item 
+\doxymbox{\hyperlink{class_prestamos_model_aba0ebf6cdb9ab85cac558824a93c6f3b}{get\+Cant\+Libro}} (\$libro)
+\item 
+\doxymbox{\hyperlink{class_prestamos_model_a966f3f2fb18d1be7f17f6e3bd6459aaa}{select\+Prestamo\+Debe}} ()
+\item 
+\doxymbox{\hyperlink{class_prestamos_model_ad25d00482a0ca7b5b7606b1a50b4f768}{verificar\+Permisos}} (\$id\+\_\+user, \$permiso)
+\item 
+\doxymbox{\hyperlink{class_prestamos_model_a4466b46aa782b32c141265fc3f92bab8}{get\+Prestamo\+Libro}} (\$id\+\_\+prestamo)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_query}{Query}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_query_a9389f8cf3272b6da5fb1574b82af6798}{select}} (string \$sql)
+\item 
+\doxymbox{\hyperlink{class_query_aba02c08b9d08163fae706cf4056ed624}{select\+All}} (string \$sql)
+\item 
+\doxymbox{\hyperlink{class_query_a48fde7f7196aae0303a50d0e535489f5}{save}} (string \$sql, array \$datos)
+\item 
+\doxymbox{\hyperlink{class_query_a15502fd99a60ade6fd76aeff70a6f667}{insert}} (string \$sql, array \$datos)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{class_conexion}{Conexion}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{class_conexion_a8c79a2ff32ddd34e5cfd4c02446bc730}{conect}} ()
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_prestamos_model_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_prestamos_model_a095c5d389db211932136b53f25f39685}\index{PrestamosModel@{PrestamosModel}!\_\_construct@{\_\_construct}}
+\index{\_\_construct@{\_\_construct}!PrestamosModel@{PrestamosModel}}
+\doxysubsubsection{\texorpdfstring{\_\_construct()}{\_\_construct()}}
+{\footnotesize\ttfamily \label{class_prestamos_model_a095c5d389db211932136b53f25f39685} 
+\+\_\+\+\_\+construct (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Reimplemented from \doxymbox{\hyperlink{class_query_a095c5d389db211932136b53f25f39685}{Query}}.
+
+
+
+\label{doc-func-members}
+\Hypertarget{class_prestamos_model_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_prestamos_model_a0daa77d47540b9bccd10b9423bcf78f4}\index{PrestamosModel@{PrestamosModel}!actualizarPrestamo@{actualizarPrestamo}}
+\index{actualizarPrestamo@{actualizarPrestamo}!PrestamosModel@{PrestamosModel}}
+\doxysubsubsection{\texorpdfstring{actualizarPrestamo()}{actualizarPrestamo()}}
+{\footnotesize\ttfamily \label{class_prestamos_model_a0daa77d47540b9bccd10b9423bcf78f4} 
+actualizar\+Prestamo (\begin{DoxyParamCaption}\item[{}]{\$estado}{, }\item[{}]{\$id}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_prestamos_model_aba0ebf6cdb9ab85cac558824a93c6f3b}\index{PrestamosModel@{PrestamosModel}!getCantLibro@{getCantLibro}}
+\index{getCantLibro@{getCantLibro}!PrestamosModel@{PrestamosModel}}
+\doxysubsubsection{\texorpdfstring{getCantLibro()}{getCantLibro()}}
+{\footnotesize\ttfamily \label{class_prestamos_model_aba0ebf6cdb9ab85cac558824a93c6f3b} 
+get\+Cant\+Libro (\begin{DoxyParamCaption}\item[{}]{\$libro}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_prestamos_model_a4466b46aa782b32c141265fc3f92bab8}\index{PrestamosModel@{PrestamosModel}!getPrestamoLibro@{getPrestamoLibro}}
+\index{getPrestamoLibro@{getPrestamoLibro}!PrestamosModel@{PrestamosModel}}
+\doxysubsubsection{\texorpdfstring{getPrestamoLibro()}{getPrestamoLibro()}}
+{\footnotesize\ttfamily \label{class_prestamos_model_a4466b46aa782b32c141265fc3f92bab8} 
+get\+Prestamo\+Libro (\begin{DoxyParamCaption}\item[{}]{\$id\+\_\+prestamo}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_prestamos_model_acd9202ff331c88f7d2202736f0e6a175}\index{PrestamosModel@{PrestamosModel}!getPrestamos@{getPrestamos}}
+\index{getPrestamos@{getPrestamos}!PrestamosModel@{PrestamosModel}}
+\doxysubsubsection{\texorpdfstring{getPrestamos()}{getPrestamos()}}
+{\footnotesize\ttfamily \label{class_prestamos_model_acd9202ff331c88f7d2202736f0e6a175} 
+get\+Prestamos (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_prestamos_model_a1f03113fc2a2c6d4aad1763efda17ef7}\index{PrestamosModel@{PrestamosModel}!insertarPrestamo@{insertarPrestamo}}
+\index{insertarPrestamo@{insertarPrestamo}!PrestamosModel@{PrestamosModel}}
+\doxysubsubsection{\texorpdfstring{insertarPrestamo()}{insertarPrestamo()}}
+{\footnotesize\ttfamily \label{class_prestamos_model_a1f03113fc2a2c6d4aad1763efda17ef7} 
+insertar\+Prestamo (\begin{DoxyParamCaption}\item[{}]{\$estudiante}{, }\item[{}]{\$libro}{, }\item[{}]{\$cantidad}{, }\item[{string}]{\$fecha\+\_\+prestamo}{, }\item[{string}]{\$fecha\+\_\+devolucion}{, }\item[{string}]{\$observacion}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_prestamos_model_aaae2ed99b8220b0abbc24e42f448439c}\index{PrestamosModel@{PrestamosModel}!selectDatos@{selectDatos}}
+\index{selectDatos@{selectDatos}!PrestamosModel@{PrestamosModel}}
+\doxysubsubsection{\texorpdfstring{selectDatos()}{selectDatos()}}
+{\footnotesize\ttfamily \label{class_prestamos_model_aaae2ed99b8220b0abbc24e42f448439c} 
+select\+Datos (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_prestamos_model_a966f3f2fb18d1be7f17f6e3bd6459aaa}\index{PrestamosModel@{PrestamosModel}!selectPrestamoDebe@{selectPrestamoDebe}}
+\index{selectPrestamoDebe@{selectPrestamoDebe}!PrestamosModel@{PrestamosModel}}
+\doxysubsubsection{\texorpdfstring{selectPrestamoDebe()}{selectPrestamoDebe()}}
+{\footnotesize\ttfamily \label{class_prestamos_model_a966f3f2fb18d1be7f17f6e3bd6459aaa} 
+select\+Prestamo\+Debe (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\Hypertarget{class_prestamos_model_ad25d00482a0ca7b5b7606b1a50b4f768}\index{PrestamosModel@{PrestamosModel}!verificarPermisos@{verificarPermisos}}
+\index{verificarPermisos@{verificarPermisos}!PrestamosModel@{PrestamosModel}}
+\doxysubsubsection{\texorpdfstring{verificarPermisos()}{verificarPermisos()}}
+{\footnotesize\ttfamily \label{class_prestamos_model_ad25d00482a0ca7b5b7606b1a50b4f768} 
+verificar\+Permisos (\begin{DoxyParamCaption}\item[{}]{\$id\+\_\+user}{, }\item[{}]{\$permiso}{}\end{DoxyParamCaption})}
+
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Models/\+\doxymbox{\hyperlink{_prestamos_model_8php}{Prestamos\+Model.\+php}}\end{DoxyCompactItemize}

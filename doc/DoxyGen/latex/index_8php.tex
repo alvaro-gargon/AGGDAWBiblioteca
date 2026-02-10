@@ -1,0 +1,80 @@
+\doxysection{index.\+php File Reference}
+\hypertarget{index_8php}{}\label{index_8php}\index{index.php@{index.php}}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{index_8php_ac305f4e1c69e186235154667ca03d8ff}{\$ruta}} = !empty(\$\+\_\+\+GET\+[\textquotesingle{}url\textquotesingle{}]\+) ? \$\+\_\+\+GET\+[\textquotesingle{}url\textquotesingle{}]\+ :\+ "{}Home/\+index"{}
+\item 
+\doxymbox{\hyperlink{index_8php_ac1361b8d873c1f927b21b809f99e5752}{\$array}} = explode("{}/\+"{}, \$ruta)
+\item 
+\doxymbox{\hyperlink{index_8php_a388ef7b1db5e6f728e63cee704ce6e23}{\$controller}} = \$array\+[0]\+
+\item 
+\doxymbox{\hyperlink{index_8php_a3e5767b529ea86d747b087743c7a8b57}{\$metodo}} = "{}index"{}
+\item 
+\doxymbox{\hyperlink{index_8php_ae753748688edb11c9cda7970a9d9a298}{\$parametro}} = "{}"{}
+\item 
+if(!empty( \$array\+[1]\+)) \doxymbox{\hyperlink{index_8php_a188b77574ec1ac59ca09951261da487e}{if}} (!empty( \$array\+[2]\+))
+\item 
+\doxymbox{\hyperlink{index_8php_a934bfb44f1cd04741c2a59af54e72af6}{\$dir\+Controllers}} = "{}Controllers/\+"{}.\$controller."{}.\+php"{}
+\item 
+\doxymbox{\hyperlink{index_8php_a188b77574ec1ac59ca09951261da487e}{if}}(file\+\_\+exists(\$dir\+Controllers)) \doxymbox{\hyperlink{index_8php_af2d7d7c421dc9d20e8ded7a7eb95cf9a}{else}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-var-members}
+\Hypertarget{index_8php_doc-var-members}
+\doxysubsection{Variable Documentation}
+\Hypertarget{index_8php_ac1361b8d873c1f927b21b809f99e5752}\index{index.php@{index.php}!\$array@{\$array}}
+\index{\$array@{\$array}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{\$array}{\$array}}
+{\footnotesize\ttfamily \label{index_8php_ac1361b8d873c1f927b21b809f99e5752} 
+\$array = explode("{}/\+"{}, \$ruta)}
+
+\Hypertarget{index_8php_a388ef7b1db5e6f728e63cee704ce6e23}\index{index.php@{index.php}!\$controller@{\$controller}}
+\index{\$controller@{\$controller}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{\$controller}{\$controller}}
+{\footnotesize\ttfamily \label{index_8php_a388ef7b1db5e6f728e63cee704ce6e23} 
+\$controller = \$array\+[0]\+}
+
+\Hypertarget{index_8php_a934bfb44f1cd04741c2a59af54e72af6}\index{index.php@{index.php}!\$dirControllers@{\$dirControllers}}
+\index{\$dirControllers@{\$dirControllers}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{\$dirControllers}{\$dirControllers}}
+{\footnotesize\ttfamily \label{index_8php_a934bfb44f1cd04741c2a59af54e72af6} 
+\$dir\+Controllers = "{}Controllers/\+"{}.\$controller."{}.\+php"{}}
+
+\Hypertarget{index_8php_a3e5767b529ea86d747b087743c7a8b57}\index{index.php@{index.php}!\$metodo@{\$metodo}}
+\index{\$metodo@{\$metodo}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{\$metodo}{\$metodo}}
+{\footnotesize\ttfamily \label{index_8php_a3e5767b529ea86d747b087743c7a8b57} 
+\$metodo = "{}index"{}}
+
+\Hypertarget{index_8php_ae753748688edb11c9cda7970a9d9a298}\index{index.php@{index.php}!\$parametro@{\$parametro}}
+\index{\$parametro@{\$parametro}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{\$parametro}{\$parametro}}
+{\footnotesize\ttfamily \label{index_8php_ae753748688edb11c9cda7970a9d9a298} 
+\$parametro = "{}"{}}
+
+\Hypertarget{index_8php_ac305f4e1c69e186235154667ca03d8ff}\index{index.php@{index.php}!\$ruta@{\$ruta}}
+\index{\$ruta@{\$ruta}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{\$ruta}{\$ruta}}
+{\footnotesize\ttfamily \label{index_8php_ac305f4e1c69e186235154667ca03d8ff} 
+\$ruta = !empty(\$\+\_\+\+GET\+[\textquotesingle{}url\textquotesingle{}]\+) ? \$\+\_\+\+GET\+[\textquotesingle{}url\textquotesingle{}]\+ :\+ "{}Home/\+index"{}}
+
+\Hypertarget{index_8php_af2d7d7c421dc9d20e8ded7a7eb95cf9a}\index{index.php@{index.php}!else@{else}}
+\index{else@{else}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{else}{else}}
+{\footnotesize\ttfamily \label{index_8php_af2d7d7c421dc9d20e8ded7a7eb95cf9a} 
+\doxymbox{\hyperlink{index_8php_a188b77574ec1ac59ca09951261da487e}{if}} (file\+\_\+exists( \$dir\+Controllers)) else}
+
+{\bfseries Initial value:\+}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\{}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ header(\textcolor{stringliteral}{'Location:'}\ .\ \doxymbox{\hyperlink{_config_8php_abc3ea092e7c9978cddd699b2a7044ce5}{base\_url}}\ .\ \textcolor{stringliteral}{'Configuracion/Error'})}
+
+\end{DoxyCode}
+\Hypertarget{index_8php_a188b77574ec1ac59ca09951261da487e}\index{index.php@{index.php}!if@{if}}
+\index{if@{if}!index.php@{index.php}}
+\doxysubsubsection{\texorpdfstring{if}{if}}
+{\footnotesize\ttfamily \label{index_8php_a188b77574ec1ac59ca09951261da487e} 
+if(!empty(\$array\+[1]\+)) if(!empty(\$array\+[2]\+)) (\begin{DoxyParamCaption}\item[{!}]{empty}{ \$array\+[2]\+}\end{DoxyParamCaption})}
+
