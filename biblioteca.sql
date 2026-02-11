@@ -21,6 +21,14 @@ SET time_zone = "+00:00";
 -- Base de datos: `biblioteca_mvc`
 --
 
+-- Borrar la base de datos
+delete if exists DBAGGDAWBiblioteca;
+-- Creacion de la base de datos
+create database if not exists DBAGGDAWBiblioteca;
+-- me situo en ella
+use DBAGGDAWBiblioteca;
+
+
 -- --------------------------------------------------------
 
 --
