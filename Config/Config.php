@@ -1,8 +1,8 @@
 <?php
-const base_url = "http://10.199.9.114/AGGDAWBiblioteca/";
+const base_url = "http://daw203.local.ieslossauces.es/AGGDAWBiblioteca/";//url LOCAL
 const host = "localhost";
-const user = "userDBBiblioteca";
-const pass = "paso";
-const db = "DBBiblioteca";
+const user = "userDBBiblioteca";//usuario LOCAL
+const pass = "paso";//contraseña LOCAL
+const db = "DBBiblioteca";//nombre de la base de datos de LOCAL
 const charset = "charset=utf8";
 ?>
